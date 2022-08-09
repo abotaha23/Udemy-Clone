@@ -1,0 +1,354 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    background-color: white;
+    border-bottom: 1px solid gray;
+}
+
+.toggle {
+    display: none;
+    width: 20px;
+    height: 20px;
+    margin: 35px 35px;
+}
+
+.logo {
+    height: 35px;
+    width: 100px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.header-links{
+    text-decoration: none;
+    margin-top: 35px;
+    margin-left: 20px;
+    font-size: 1.5rem;
+    color: black;
+}
+.header-links:hover {
+    color: blueviolet;
+}
+
+.container {
+    border: 1px solid black;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.search-bar {
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    flex: 1;
+    border: 0;
+    outline: none;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+.search-bar button img {
+    width: 30px;
+}
+
+.search-bar button {
+    border: 0;
+    outline: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.cart img {
+    width: 30px;
+}
+
+.cart {
+    margin-top: 30px;
+    margin-left: 16px;
+    margin-right: 16 px;
+}
+
+.login-link, .signup-link {
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.login {
+    border: 2px solid black;
+    display: flex;
+    margin-top: 20px;
+    color: black;
+}
+
+.login:hover {
+    background-color: ghostwhite;
+    animation-duration: 0.2s;
+}
+
+.login span, .signup span {
+    margin: 8px;
+    font-size: 1.5rem;
+    font-weight: 1000;
+    font-style: bold;
+}
+
+.signup span {
+    margin: 10px;
+}
+
+.signup {
+    display: flex;
+    margin-top: 20px;
+    background-color: black;
+    opacity: .9;
+    color: white;
+}
+
+.signup:hover {
+    opacity: 1;
+    animation-duration: 0.2s;
+}
+
+.language-link img {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+.language-link div {
+    display: flex;
+    margin: 20px 10px;
+    border: 2px solid black;
+}
+
+.language-link div:hover {
+    background-color: ghostwhite;
+    animation-duration: 0.2s;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro {
+    display: flex;
+    text-align: left;
+    position: relative;
+}
+
+.intro img {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.intro div {
+    background-color: white;
+    position: absolute;
+    top: 80px;
+    left: 160px;
+    width: 400px;
+}
+
+.intro div h1 {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.intro div p {
+    margin-top: 1px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    text-align: left;
+}
+
+.middle {
+    margin-top: 50px;
+    margin-left: 130px;
+}
+
+.middle h1 {
+    font-size: 3.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.middle p {
+    font-size: 2rem;
+}
+
+.courses {
+    display: flex;
+}
+
+.courses a {
+    opacity: .6;
+    text-decoration: none;
+    font-weight: 1000;
+    font-size: 1.5rem;
+    margin-left: 15px;
+    color: black;
+}
+
+.courses a:hover {
+    opacity: 1;
+    animation-duration: .2s;
+}
+
+.courses .python { /*choosing python by default but this should be modified later*/
+    opacity: 1;
+}
+
+.python-tab {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 1260px;
+    height: 550px;
+    padding: 30px;
+}
+
+.python-tab h1 {
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.python-tab .firstp {
+    font-size: 1.5rem;
+    height: 80px;
+    width: 850px;
+}
+
+.explore-python {
+    text-decoration: none;
+}
+
+.explore-python div:hover {
+    background-color: whitesmoke;
+    animation-duration: .2s;
+}
+
+.explore-python div {
+    border: 1px solid black;
+    width: fit-content;
+    padding: 10px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: black;
+}
+
+.python-courses {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.python-courses a {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+}
+
+.course img {
+    width: 220px;
+    height: 120px;
+}
+
+.course h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 210px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.course .tutor {
+    margin-top: 5px;
+    font-size: 1.1rem;
+    opacity: .9;
+}
+
+.course .rating {
+    color: goldenrod;
+}
+
+.rating .numberofvotes {
+    color: black;
+    margin-right: 5px;
+    font-size: 1.2rem;
+    opacity: .8;
+}
+
+.course .price {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.course img:hover {
+    filter:brightness(70%);
+    animation-duration: 1s;
+}
+
+.course .bestseller {
+    padding: 2px 4px;
+    background-color: gold;
+    width: fit-content;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-top: 5px;
+    color: black;
+}
+
+
+@media (max-width: 500px) {
+    .header-links, .container, .cart, .login-link, .signup-link, .language-link {
+        display: none;
+    }
+    .toggle {
+        display: flex;
+    }
+    .logo {
+        height: 35px;
+        width: 100px;
+        margin-top: 25px;
+        margin-left: 250px;
+        display: flex;
+        align-items: right;
+    }
+}
