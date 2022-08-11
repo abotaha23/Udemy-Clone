@@ -13,7 +13,7 @@ html {
 header {
     display: flex;
     flex-direction: row;
-    height: 90px;
+    height: 100px;
     background-color: white;
     border-bottom: 1px solid gray;
 }
@@ -22,7 +22,7 @@ header {
     display: none;
     width: 20px;
     height: 20px;
-    margin: 35px 35px;
+    margin: 30px;
 }
 
 .logo {
@@ -208,6 +208,7 @@ main {
 
 .courses {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .courses a {
@@ -234,8 +235,8 @@ main {
     border: 1px solid black;
     margin-top: 20px;
     margin-bottom: 50px;
-    width: 1260px;
-    height: 550px;
+    margin-right: 75px;
+    min-width: 400px;
     padding: 30px;
 }
 
@@ -247,12 +248,12 @@ main {
 
 .python-tab .firstp {
     font-size: 1.5rem;
-    height: 80px;
-    width: 850px;
+    width: 70%;
 }
 
 .explore-python {
     text-decoration: none;
+    margin-top: 10px;
 }
 
 .explore-python div:hover {
@@ -273,6 +274,7 @@ main {
     margin-top: 30px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .python-courses a {
@@ -347,7 +349,7 @@ main {
         height: 35px;
         width: 100px;
         margin-top: 25px;
-        margin-left: 250px;
+        margin-left: 90%;
         display: flex;
         align-items: right;
     }
