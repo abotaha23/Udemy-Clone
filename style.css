@@ -252,6 +252,7 @@ main {
 }
 
 .explore-python {
+    width: fit-content;
     text-decoration: none;
     margin-top: 10px;
 }
@@ -307,14 +308,8 @@ main {
 }
 
 .course .rating {
+    display: inline;
     color: goldenrod;
-}
-
-.rating .numberofvotes {
-    color: black;
-    margin-right: 5px;
-    font-size: 1.2rem;
-    opacity: .8;
 }
 
 .course .price {
@@ -353,4 +348,8 @@ main {
         display: flex;
         align-items: right;
     }
+}
+
+.hide {
+    display: none;
 }

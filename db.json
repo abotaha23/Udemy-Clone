@@ -1,0 +1,43 @@
+{
+    "courses":[
+        {
+            "id": 1,
+            "image": "https://xp.io/storage/8BtSwPS.png",
+            "title": "The Python and Django Learning Guide",
+            "tutor": "Hassan Fulaih",
+            "price": "E£1,399.99"
+        },
+
+        {
+            "id": 2,
+            "image": "https://xp.io/storage/8BwMABx.png",
+            "title": "The Complete Programming Fundamentals Course -...",
+            "tutor": "Abderrahmen Litprog",
+            "price": "E£229.99"
+        },
+
+        {
+            "id": 3,
+            "image": "https://xp.io/storage/8By3ERW.png",
+            "title": "Python For Beginners [in Arabic]",
+            "tutor": "ElAmir Mahmoud Mansour",
+            "price": "E£229.99"
+        },
+
+        {
+            "id": 4,
+            "image": "https://xp.io/storage/8Bz5M33.png",
+            "title": "تعلم البرمجة بلغة بايثون من الصفر خطوة بخطوة",
+            "tutor": "Hadi Hawla",
+            "price": "E£579.99"
+        },
+
+        {
+            "id": 5,
+            "image": "https://xp.io/storage/8BAaCCV.png",
+            "title": "Python for Data Science and Machine Learning",
+            "tutor": "Hassan Fulaih",
+            "price": "E£679.99"
+        }
+    ]
+}

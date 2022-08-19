@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
@@ -18,7 +19,7 @@
         <div class="container">
             <form action="" class="search-bar">
                 <button type="submit"><img src="images/search.png" alt="search"></button>
-                <input type="text" placeholder="Search for anything">
+                <input type="text" placeholder="Search for anything" search-courses>
             </form>
         </div>
         <a href="" class="header-links">Udemy Bussiness</a> 
@@ -56,68 +57,23 @@
                 </br>
                 <p class="firstp">Take one of Udemy’s range of Python courses and learn how to code using this incredibly useful language. Its simple syntax and readability makes Python perfect for Flask, Django, data science, and machine learning. You’ll learn how to build everything from games to sites to apps. Choose from a range of courses that will appeal to...</p>
                 <a href="" class="explore-python"><div><span>Explore Python</span></div></a>
-                <div class="python-courses">
-                    <a href="">
-                        <div class="course">
-                            <img src="images/Python-course1.png" alt="course 1">
-                            <h1>The Python and Django Learning Guide</h1>
-                            <p class="tutor">Hassan Fulaih</p>
-                            <p class="rating">
-                                4 &starf; &starf; &starf; &starf; &star; <span class="numberofvotes">(942)</span>
-                            </p>
-                            <p class="price">E£1,399.99</p>
-                        </div>
-                    </a>
-
-                    <a href="">
-                        <div class="course">
-                            <img src="images/Python-course2.png" alt="course 2">
-                            <h1>The Complete Programming Fundamentals Course -...</h1>
-                            <p class="tutor">Abderrahmen Litprog</p>
-                            <p class="rating">
-                                4 &starf; &starf; &starf; &starf; &star; <span class="numberofvotes">(253)</span>
-                            </p>
-                            <p class="price">E£229.99</p>
-                            <div class="bestseller"><span>Bestseller</span></div>
-                        </div>
-                    </a>
-
-                    <a href="">
-                        <div class="course">
-                            <img src="images/Python-course3.png" alt="course 3">
-                            <h1>Python For Beginners [in Arabic]</h1>
-                            <p class="tutor">ElAmir Mahmoud Mansour</p>
-                            <p class="rating">
-                                3 &starf; &starf; &starf; &star; &star; <span class="numberofvotes">(458)</span>
-                            </p>
-                            <p class="price">E£229.99</p>
-                        </div>
-                    </a>
-
-                    <a href="">
-                        <div class="course">
-                            <img src="images/Python-course4.png" alt="course 4">
-                            <h1>تعلم البرمجة بلغة بايثون من الصفر خطوة بخطوة</h1>
-                            <p class="tutor">Hadi Hawla</p>
-                            <p class="rating">
-                                4 &starf; &starf; &starf; &starf; &star; <span class="numberofvotes">(112)</span>
-                            </p>
-                            <p class="price">E£579.99</p>
-                        </div>
-                    </a>
-
-                    <a href="">
-                        <div class="course">
-                            <img src="images/Python-course5.png" alt="course 5">
-                            <h1>Python for Data Science and Machine Learning</h1>
-                            <p class="tutor">Hassan Fulaih</p>
-                            <p class="rating">
-                                5 &starf; &starf; &starf; &starf; &starf; <span class="numberofvotes">(93)</span>
-                            </p>
-                            <p class="price">E£679.99</p>
-                        </div>
-                    </a>
-                </div>
+                <div class="python-courses" python-courses-container></div>
+                <template courses-template>
+                    <div>
+                        <a href="" class="course">
+                            <div>
+                                <img src="" alt="" image>
+                                <h1 title></h1>
+                                <p class="tutor" tutor></p>
+                                <p class="rating" rating>
+                                    <p class="numberofvotes" numberofvotes style="display: inline; color: black; margin-right: 5px; font-size: 1.3rem; opacity: .8;"></p>
+                                </p>
+                                <p class="price" price></p>
+                                <div class="bestseller" bestseller></div>
+                            </div>
+                        </a>
+                    </div>
+                </template>
             </div>
         </div>
     </main>
