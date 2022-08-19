@@ -5,7 +5,10 @@
             "image": "https://xp.io/storage/8BtSwPS.png",
             "title": "The Python and Django Learning Guide",
             "tutor": "Hassan Fulaih",
-            "price": "E£1,399.99"
+            "rating": "4 ⭐⭐⭐⭐",
+            "numberofvotes": "(942)",
+            "price": "E£1,399.99",
+            "bestseller": "no"
         },
 
         {
@@ -13,7 +16,10 @@
             "image": "https://xp.io/storage/8BwMABx.png",
             "title": "The Complete Programming Fundamentals Course -...",
             "tutor": "Abderrahmen Litprog",
-            "price": "E£229.99"
+            "rating": "4 ⭐⭐⭐⭐",
+            "numberofvotes": "(253)",
+            "price": "E£229.99",
+            "bestseller": "yes"
         },
 
         {
@@ -21,7 +27,10 @@
             "image": "https://xp.io/storage/8By3ERW.png",
             "title": "Python For Beginners [in Arabic]",
             "tutor": "ElAmir Mahmoud Mansour",
-            "price": "E£229.99"
+            "rating": "3 ⭐⭐⭐",
+            "numberofvotes": "(458)",
+            "price": "E£229.99",
+            "bestseller": "no"
         },
 
         {
@@ -29,7 +38,10 @@
             "image": "https://xp.io/storage/8Bz5M33.png",
             "title": "تعلم البرمجة بلغة بايثون من الصفر خطوة بخطوة",
             "tutor": "Hadi Hawla",
-            "price": "E£579.99"
+            "rating": "4 ⭐⭐⭐⭐",
+            "numberofvotes": "(112)",
+            "price": "E£579.99",
+            "bestseller": "no"
         },
 
         {
@@ -37,7 +49,10 @@
             "image": "https://xp.io/storage/8BAaCCV.png",
             "title": "Python for Data Science and Machine Learning",
             "tutor": "Hassan Fulaih",
-            "price": "E£679.99"
+            "rating": "5 ⭐⭐⭐⭐⭐",
+            "numberofvotes": "(93)",
+            "price": "E£679.99",
+            "bestseller": "no"
         }
     ]
 }

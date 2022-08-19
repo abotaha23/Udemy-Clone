@@ -17,7 +17,6 @@ fetch("http://localhost:3000/courses")
 .then(data => {
     courses = data.map(course => {
         const Course = CoursesTemplate.content.cloneNode(true).children[0]
-        const id = course.id
         const image = Course.querySelector("[image]")
         const title = Course.querySelector("[title]")
         const tutor = Course.querySelector("[tutor]")
@@ -27,42 +26,18 @@ fetch("http://localhost:3000/courses")
         const bestseller = Course.querySelector("[bestseller]")
 
         image.src = course.image
-        image.alt = "course"+id
+        image.alt = "course"+course.id
 
         title.textContent = course.title
+
         tutor.textContent = course.tutor
+
+        rating.textContent = course.rating
+        numberofvotes.textContent = course.numberofvotes
         
         price.textContent = course.price
 
-        if (id == 1) {
-            rating.textContent = "4 ⭐⭐⭐⭐"
-            numberofvotes.textContent = "(942)"
-            bestseller.classList.toggle("hide", true) // hide it if it's not a bestseller
-        }
-
-        else if (id == 2) {
-            rating.textContent = "4 ⭐⭐⭐⭐"
-            numberofvotes.textContent = "(253)"
-            bestseller.textContent = "Bestseller"
-        }
-
-        else if (id == 3) {
-            rating.textContent = "3 ⭐⭐⭐"
-            numberofvotes.textContent = "(458)"
-            bestseller.classList.toggle("hide", true)
-        }
-
-        else if (id == 4) {
-            rating.textContent = "4 ⭐⭐⭐⭐"
-            numberofvotes.textContent = "(112)"
-            bestseller.classList.toggle("hide", true)
-        }
-
-        else {
-            rating.textContent = "5 ⭐⭐⭐⭐⭐"
-            numberofvotes.textContent = "(93)"
-            bestseller.classList.toggle("hide", true) 
-        }
+        bestseller.classList.toggle("hide", course.bestseller === "no")
 
         PythonCoursesContainer.append(Course)
 
