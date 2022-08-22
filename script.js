@@ -1,11 +1,12 @@
 const CoursesTemplate = document.querySelector("[courses-template]")
 const PythonCoursesContainer = document.querySelector("[python-courses-container]")
-const SearchCourses = document.querySelector("[search-courses]")
+const form = document.querySelector("form")
 
 let courses = []
 
-SearchCourses.addEventListener("input", e => {
-    const value = e.target.value.toLowerCase()
+form.addEventListener("submit", (e) => {
+    e.preventDefault()
+    const value = document.querySelector("[search-courses]").value
     courses.forEach(course => {
         const ok = course.title.toLowerCase().includes(value) || course.tutor.toLowerCase().includes(value)
         course.element.classList.toggle("hide", !ok)
