@@ -1,8 +1,8 @@
 {
-    "courses":[
+    "Python": [
         {
             "id": 1,
-            "image": "https://xp.io/storage/8BtSwPS.png",
+            "image": "images/Python-course1.png",
             "title": "The Python and Django Learning Guide",
             "tutor": "Hassan Fulaih",
             "rating": "4 ⭐⭐⭐⭐",
@@ -13,7 +13,7 @@
 
         {
             "id": 2,
-            "image": "https://xp.io/storage/8BwMABx.png",
+            "image": "images/Python-course2.png",
             "title": "The Complete Programming Fundamentals Course -...",
             "tutor": "Abderrahmen Litprog",
             "rating": "4 ⭐⭐⭐⭐",
@@ -24,7 +24,7 @@
 
         {
             "id": 3,
-            "image": "https://xp.io/storage/8By3ERW.png",
+            "image": "images/Python-course3.png",
             "title": "Python For Beginners [in Arabic]",
             "tutor": "ElAmir Mahmoud Mansour",
             "rating": "3 ⭐⭐⭐",
@@ -35,7 +35,7 @@
 
         {
             "id": 4,
-            "image": "https://xp.io/storage/8Bz5M33.png",
+            "image": "images/Python-course4.png",
             "title": "تعلم البرمجة بلغة بايثون من الصفر خطوة بخطوة",
             "tutor": "Hadi Hawla",
             "rating": "4 ⭐⭐⭐⭐",
@@ -46,13 +46,184 @@
 
         {
             "id": 5,
-            "image": "https://xp.io/storage/8BAaCCV.png",
+            "image": "images/Python-course5.png",
             "title": "Python for Data Science and Machine Learning",
             "tutor": "Hassan Fulaih",
             "rating": "5 ⭐⭐⭐⭐⭐",
             "numberofvotes": "(93)",
             "price": "E£679.99",
             "bestseller": "no"
+        },
+
+        {
+            "id": 6,
+            "image": "images/Python-course6.png",
+            "title": "بايثون من الصفر الى الاحتراف",
+            "tutor": "Mahmoud Qaisiya",
+            "rating": "5 ⭐⭐⭐⭐⭐",
+            "numberofvotes": "(85)",
+            "price": "E£369.99",
+            "bestseller": "no"
+        },
+
+        {
+            "id": 7,
+            "image": "images/Python-course7.png",
+            "title": "Python Facebook SMM: Python For Social Media Tools 2022",
+            "tutor": "Elsafy Hegazy",
+            "rating": "5 ⭐⭐⭐⭐⭐",
+            "numberofvotes": "(21)",
+            "price": "E£149.99",
+            "bestseller": "yes"
+        },
+
+        {
+            "id": 8,
+            "image": "images/Python-course8.png",
+            "title": "Learning Python for Data Analysis and Visualization",
+            "tutor": "Hadi Hawla",
+            "rating": "4 ⭐⭐⭐⭐",
+            "numberofvotes": "(18,017)",
+            "price": "E£199.99",
+            "bestseller": "yes"
+        },
+
+        {
+            "id": 9,
+            "image": "images/Python-course9.png",
+            "title": "Python for Beginners - Learn Programming from scratch",
+            "tutor": "Edwin Diaz, Coding Faculty Solutions",
+            "rating": "4 ⭐⭐⭐⭐",
+            "numberofvotes": "(1,798)",
+            "price": "E£149.99",
+            "bestseller": "no"
+        },
+
+        {
+            "id": 10,
+            "image": "images/Python-course10.png",
+            "title": "Learn Python: Python for Beginners",
+            "tutor": "Abrar Hussain",
+            "rating": "4 ⭐⭐⭐⭐",
+            "numberofvotes": "(2,774)",
+            "price": "E£149.99",
+            "bestseller": "no"
         }
-    ]
+    ],
+    "Excel": [
+        {
+            "id": 1,
+            "image": "images/Excel-course1.png",
+            "title": "Ultimate Microsoft Excel 2019 (بالعربية Excel كورس)",
+            "tutor": "Muhammed Abdel-Aal, Creative Youth Club",
+            "rating": "4 ⭐⭐⭐⭐",
+            "numberofvotes": "(1,286)",
+            "price": "E£149.99",
+            "bestseller": "no"
+        },
+
+        {
+            "id": 2,
+            "image": "images/Excel-course2.png",
+            "title": "Advanced Microsoft Excel for Accountants (In Arabic)",
+            "tutor": "Mohamed Magdy",
+            "rating": "5 ⭐⭐⭐⭐⭐",
+            "numberofvotes": "(549)",
+            "price": "E£129.99",
+            "bestseller": "no"
+        },
+
+        {
+            "id": 3,
+            "image": "images/Excel-course3.png",
+            "title": "Microsoft Excel - الاكسل من الصفر للاحتراف",
+            "tutor": "Abd El-Rahman Sameh",
+            "rating": "5 ⭐⭐⭐⭐⭐",
+            "numberofvotes": "(368)",
+            "price": "E£149.99",
+            "bestseller": "no"
+        },
+
+        {
+            "id": 4,
+            "image": "images/Excel-course4.png",
+            "title": "Microsoft Excel - Excel from Beginner to MOS Master",
+            "tutor": "Ahmed Magdy",
+            "rating": "4 ⭐⭐⭐⭐",
+            "numberofvotes": "(137)",
+            "price": "E£149.99",
+            "bestseller": "no"
+        },
+
+        {
+            "id": 5,
+            "image": "images/Excel-course5.png",
+            "title": "Microsoft Excel 2013 Course Beginners/ Intermediate Training",
+            "tutor": "Infinite Skills",
+            "rating": "4 ⭐⭐⭐⭐",
+            "numberofvotes": "(1,641)",
+            "price": "E£149.99",
+            "bestseller": "no"
+        },
+
+        {
+            "id": 6,
+            "image": "images/Excel-course6.png",
+            "title": "Microsoft Excel 2013 Advanced. Online Excel Training Course",
+            "tutor": "Infinite Skills",
+            "rating": "4 ⭐⭐⭐⭐",
+            "numberofvotes": "(3,518)",
+            "price": "E£169.99",
+            "bestseller": "no"
+        },
+
+        {
+            "id": 7,
+            "image": "images/Excel-course7.png",
+            "title": "Microsoft Excel - From Beginner to Expert in 6 Hours",
+            "tutor": "Todd McLead",
+            "rating": "4 ⭐⭐⭐⭐",
+            "numberofvotes": "(24,986)",
+            "price": "E£149.99",
+            "bestseller": "yes"
+        },
+
+        {
+            "id": 8,
+            "image": "images/Excel-course8.png",
+            "title": "Sharper skills using Microsoft Excel 2010 for business",
+            "tutor": "ulrika Hedlund",
+            "rating": "5 ⭐⭐⭐⭐⭐",
+            "numberofvotes": "(671)",
+            "price": "E£129.99",
+            "bestseller": "no"
+        },
+
+        {
+            "id": 9,
+            "image": "images/Excel-course9.png",
+            "title": "Learn Microsoft Excel 2013 - Advanced",
+            "tutor": "Simon Sez IT",
+            "rating": "5 ⭐⭐⭐⭐⭐",
+            "numberofvotes": "(381)",
+            "price": "E£169.99",
+            "bestseller": "no"
+        },
+
+        {
+            "id": 10,
+            "image": "images/Excel-course10.png",
+            "title": "Excel 2013",
+            "tutor": "Learnit Anytime",
+            "rating": "4 ⭐⭐⭐⭐",
+            "numberofvotes": "(1,470)",
+            "price": "E£149.99",
+            "bestseller": "no"
+        }
+    ],
+    "Web development": [],
+    "JavaScript": [],
+    "Data Science": [],
+    "AWS Certification": [],
+    "Drawing": []
 }
